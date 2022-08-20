@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+	<link id="theme-style" rel="stylesheet" type="text/css" href="">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="s1">
+        <div class="main-container">
+            <div class="greeting-wrapper">
+                <h1>Hi, I'm Salim Khadir</h1>
+            </div>
+            <div class="intro-wrapper">
+                <div class="nav-wrapper">
+                    <div class="dots-wrapper">
+                        <div class="browser-dot" id="dot-1"></div>
+                        <div class="browser-dot" id="dot-2"></div>
+                        <div class="browser-dot" id="dot-3"></div>
+                    </div>
+                    <ul class="navigation">
+                        <li>
+                            <a href="#contact">contacts</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="left-wrapper">
+                    <img src="salim.jpg" id="profile-pic" alt="">
+                    <h5>Personelise theme</h5>
+                    <div id="theme-dots-opt">
+                        <div class="theme-dot" id="light-mode" data-mode="light"></div>
+                        <div class="theme-dot" id="blue-mode" data-mode="blue"></div>
+                        <div class="theme-dot" id="green-mode" data-mode="green"></div>
+                        <div class="theme-dot" id="purple-mode" data-mode="purple"></div>
+                        
+                    </div>
+                    <p id="settings-note">*Theme settings will be saved for<br>your next vist</p>
+                </div>
+                <div class="right-wrapper">
+                    <div class="preview-shadow">
+                        <div class="preview">
+                            <div id="corner-tl" class="corner"></div>
+                            <div id="corner-tr" class="corner"></div>
+                            <h3>What I do</h3>
+                            <p>I am frontend developer,I'm trying to perfect myself everyday</p>
+                            <div id="corner-bl" class="corner"></div>
+                            <div id="corner-br" class="corner"></div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="s2">
+        <div class="main-container">
+            <div class="about-wrapper">
+                <div class="about-me">
+                    <h4>More About me</h4>
+                    <p>I build new projects just to tickle my brain and love teaching others how they're made.
+
+                        While I keep busy teaching courses, </p>
+                        <p>0I still take interviews in search of a great team & projects that interest me. </p>
+                        <hr>
+                        <h4>Top exepretise</h4>
+                        <p>Fullstack developer with primary focus on Django + React: <a target="_blank" href="#">Download Resume</a></p>
+                    </div>
+                <div class="social-links">
+                    <img id="social-img" src="form.png" alt="">
+                    <h4>Find me on Twitter & Youtube</h4>
+                    <a href="#">Youtube:@SalimKhadir</a>
+                    <a href="#">Twitter:@SalimKhadir</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="s1">
+        <div class="main-container">
+            <h3 style=" text-align: center; font-size:28px;padding:25px">Some my past project</h3>
+            <div class="post-wrapper">
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="porfolio-1.0.png" alt="">
+                        <div class="post-previw">
+                            <h6 class="post-title">Portfolio</h6>
+                            <p class="post-intro">
+                                I built a portfolio templates using pure html, css and javascriot
+                            </p>
+                            <a href="#"> Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="to-app.png" alt="">
+                        <div class="post-previw">
+                            <h6 class="post-title">To do app</h6>
+                            <p class="post-intro">
+                                I built a really good To do app using react js and firebase 
+                            </p>
+                            <a href="#"> Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="candycrush.png" alt="">
+                        <div class="post-previw">
+                            <h6 class="post-title">To do app</h6>
+                            <p class="post-intro">
+                                I built a candy crush game with javascript only and it is amazing 
+                            </p>
+                            <a href="#"> Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="s2">
+        <div class="main-container">
+            <h3 style="text-align:center;font-size:28px;padding:25px">Get in Touch</h3>
+            <form action="#" id="contact-form">
+                <a style="padding:0;" name="contact"></a>
+                <label for="name">Name</label>
+                <input type="text" class="input-field" name="name">
+                <label for="Subject">Subject</label>
+                <input type="text" class="input-field" name="Subject">
+                <label for="email">Email</label>
+                <input type="email" class="input-field" name="email">
+                <label for="Message">Message</label>
+                <textarea name="Message"  class="input-field"></textarea>
+                <input type="submit" id="submit-btn" value="send">
+            </form>
+        </div>
+    </div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
